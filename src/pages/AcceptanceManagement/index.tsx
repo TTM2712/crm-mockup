@@ -154,7 +154,7 @@ const AcceptanceManagement: React.FC = () => {
         </Tabs>
 
         {/* Search and Filter Bar */}
-        <Box sx={{ p: 2, display: 'flex', gap: 2, alignItems: 'center', flexWrap: 'wrap' }}>
+        <Box sx={{ p: 3, display: 'flex', gap: 2, alignItems: 'center', flexWrap: 'wrap' }}>
           <TextField
             placeholder="Tìm kiếm..."
             value={searchTerm}
